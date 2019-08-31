@@ -4,7 +4,7 @@ cc_defaults {
     cflags: [
         "-Wall",
         "-Wextra",
-        "-Werror",
+        "-Wno-error",
     ],
     product_variables: {
         binder32bit: {
